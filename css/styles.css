@@ -238,7 +238,7 @@ h1 {
 
 /*styling action dan tombol delete*/
 .actions .delete-btn {
-    background-image: url('../img/trash-icon.png');
+    background-image: url('img/trash-icon.png');
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
