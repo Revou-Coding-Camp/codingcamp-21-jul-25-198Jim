@@ -220,39 +220,9 @@ h1 {
     overflow-wrap: break-word;
 }
 
-/* Menggunakan Flexbox di dalam kolom "Actions" 
-   agar checkbox dan tombol hapus sejajar rapi */
-.actions {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; /* Posisikan item dari kiri */
-    gap: 15px; /* Jarak antara checkbox dan tombol hapus */
-}
-
-/* Pastikan styling sebelumnya untuk checkbox dan tombol hapus tetap ada */
-.actions .status-checkbox {
-    width: 18px;
-    height: 18px;
-    cursor: pointer;
-}
-
-/* Styling untuk tugas yang sudah selesai */
-.task-item.completed .task-name,
-.task-item.completed .due-date {
-    text-decoration: line-through;
-    opacity: 0.6;
-}
-
-.no-task-msg {
-  text-align: center;
-  color: var(--text-secondary);
-  padding: 2rem 0;
-  font-size: 1rem;
-}
-
 /* Styling untuk tombol hapus dengan ikon */
 .actions .delete-btn {
-    background-image: url(img/1214428.png); /* Sesuaikan path jika perlu */
+    background-image: url(img/delete-red.png);
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
@@ -273,9 +243,25 @@ h1 {
     vertical-align: middle;
 }
 
-/* Styling untuk tugas yang sudah selesai (completed) */
+/* Menggunakan Flexbox di dalam kolom "Actions" 
+   agar checkbox dan tombol hapus sejajar rapi */
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Posisikan item dari kiri */
+    gap: 5px; /* Jarak antara checkbox dan tombol hapus */
+}
+
+/* Styling untuk tugas yang sudah selesai */
 .task-item.completed .task-name,
 .task-item.completed .due-date {
     text-decoration: line-through;
     opacity: 0.6;
+}
+
+.no-task-msg {
+  text-align: center;
+  color: var(--text-secondary);
+  padding: 2rem 0;
+  font-size: 1rem;
 }
