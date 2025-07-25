@@ -236,19 +236,6 @@ h1 {
     cursor: pointer;
 }
 
-/*styling action dan tombol delete*/
-.actions .delete-btn {
-    background-image: url('img/trash-icon.png');
-    background-color: transparent;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    border: none;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-}
-
 /* Styling untuk tugas yang sudah selesai */
 .task-item.completed .task-name,
 .task-item.completed .due-date {
@@ -265,7 +252,7 @@ h1 {
 
 /* Styling untuk tombol hapus dengan ikon */
 .actions .delete-btn {
-    background-image: url(/img/1214428.png); /* Sesuaikan path jika perlu */
+    background-image: url(img/1214428.png); /* Sesuaikan path jika perlu */
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
