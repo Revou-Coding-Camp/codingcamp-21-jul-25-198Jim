@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>
+        <h1>Todo List App</h1>
+    </title>
+</head>
+<body>
+    <main>
+        <div class="todo-container">
+            <h1 class="titleapp">Todo List</h1>
+            
+            <form class="add-todo-list">
+                <input type="text" class="add-todo" placeholder="Add a todo...">
+                <input type="date" class="date">
+                <button type="submit" class="submit">+</button>
+            </form>
+
+            <div class="control">
+                <button class="filter-date">Filter by Date</button>
+                <button class="filter-sts">Filter by Status</button>
+                <button class="delete-all">Delete All</button>
+            </div>
+
+            <div class="area-todo-list">
+                <div class="header-list">
+                    <span class="header-task">Task</span>
+                    <span class="header-due-date">Due Date</span>
+                    <span class="header-status">Status</span>
+                    <span class="header-actions">Actions</span>
+                </div>
+                <ul class="todo-task">
+                    <li class="no-task-msg">No Task Found</li>
+
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
